@@ -1,0 +1,32 @@
+{
+  "name": "kovo-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/app.js",
+    "start": "node src/app.js",
+    "start:prod": "NODE_ENV=production node src/app.js",
+    "logs:error": "tail -f logs/error.log",
+    "logs:all": "tail -f logs/combined.log",
+    "clean:logs": "rm -rf logs/*.log"
+  },
+  "dependencies": {
+    "@onesignal/node-onesignal": "^5.3.1-beta1",
+    "@supabase/supabase-js": "^2.39.0",
+    "axios": "^1.6.2",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^2.8.0",
+    "compression": "^1.8.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^8.2.1",
+    "express-validator": "^7.0.1",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.0.2",
+    "sib-api-v3-sdk": "^8.5.0",
+    "socket.io": "^4.8.1",
+    "winston": "^3.18.3"
+  }
+}
