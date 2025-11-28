@@ -154,6 +154,15 @@ npm start            # Servir le build
 | GET | /api/messages | Conversations |
 | POST | /api/messages | Envoyer message |
 
+## Hebergement
+
+| Service | Plateforme | URL |
+|---------|------------|-----|
+| Frontend | Vercel | https://kovo-frontend.vercel.app |
+| Backend | Render | https://kovo-backend.onrender.com |
+| Base de donnees | Supabase | PostgreSQL |
+| Monitoring | UptimeRobot | Ping toutes les 5 min |
+
 ## Licence
 
 Projet prive - Tous droits reserves
